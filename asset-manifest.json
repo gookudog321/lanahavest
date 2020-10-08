@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lanahavest/static/css/main.ffc25106.chunk.css",
+    "main.js": "/lanahavest/static/js/main.7b58fb8c.chunk.js",
+    "main.js.map": "/lanahavest/static/js/main.7b58fb8c.chunk.js.map",
+    "runtime-main.js": "/lanahavest/static/js/runtime-main.97549b0b.js",
+    "runtime-main.js.map": "/lanahavest/static/js/runtime-main.97549b0b.js.map",
+    "static/js/2.6d2eb9d4.chunk.js": "/lanahavest/static/js/2.6d2eb9d4.chunk.js",
+    "static/js/2.6d2eb9d4.chunk.js.map": "/lanahavest/static/js/2.6d2eb9d4.chunk.js.map",
+    "index.html": "/lanahavest/index.html",
+    "precache-manifest.6c9f0b041a18589acede161a5382bceb.js": "/lanahavest/precache-manifest.6c9f0b041a18589acede161a5382bceb.js",
+    "service-worker.js": "/lanahavest/service-worker.js",
+    "static/css/main.ffc25106.chunk.css.map": "/lanahavest/static/css/main.ffc25106.chunk.css.map",
+    "static/js/2.6d2eb9d4.chunk.js.LICENSE.txt": "/lanahavest/static/js/2.6d2eb9d4.chunk.js.LICENSE.txt",
+    "static/media/lannaharvest.png": "/lanahavest/static/media/lannaharvest.4dc9f612.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97549b0b.js",
+    "static/js/2.6d2eb9d4.chunk.js",
+    "static/css/main.ffc25106.chunk.css",
+    "static/js/main.7b58fb8c.chunk.js"
+  ]
+}
