@@ -44,7 +44,7 @@ a:hover{
   display: grid;
   grid-template-columns: 0.7fr 1fr;
   /* background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.342)); */
-  background-color: #242222;
+  background: #242222;
   /* border-bottom: 0.1rem solid #d8d8d8; */
   position: fixed;
   width: 100%;
@@ -116,10 +116,31 @@ ul.nav-list li a:hover{
   height: 630px;
   object-fit: cover;
 }
+.title-slider{
+  position: relative;
+}
+
 .title-text{
   position: absolute;
   bottom:1rem;
-  right:1rem;  
+  right:1rem; 
+  text-align: center; 
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  text-align: center;
+}
+.title,h3 p{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.title h3{
+  font-size: 40px;
+}
+.title p{
+font-size: 30px;
 }
 .title-content div{
   position: relative;
@@ -289,8 +310,15 @@ ul.nav-list li a:hover{
   margin-left: 3rem;
   margin-top: 0.5rem;
 }
+
 /* Medail */
 @media screen and (max-width: 960px) {
+  .nav-active{
+    background: #242222 !important;
+    left: 0 !important;
+    transition: all 0.5s ease;
+  }
+
   .menu-icon {
     display: block;
     position: absolute;
@@ -302,7 +330,19 @@ ul.nav-list li a:hover{
     color: #d8d8d8;
     cursor: pointer;
   }
-
+  .title-grid{
+    grid-template-columns: 1fr;
+    padding-top: 0 ;
+  }
+  .title-grid img{
+      height: 682px ;
+  }
+  .nav-grid{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.342)); ;
+  }
+  .active{
+    background:linear-gradient(rgba(0, 0,0, 1.5), rgba(0, 0, 0, 10)); ;
+  }
   .nav-list{
     display: flex;
     flex-direction: column;
@@ -321,7 +361,19 @@ ul.nav-list li a:hover{
   .nav-list li{
     display: contents;
   } 
- 
+  .active {
+    background: #242222;
+  }
+  .title{
+    left: 33%;
+    right: 30%;
+  }
+  .title h3{
+    font-size: 30px;
+  }
+  .title p {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 840px) {
   .title-grid{
@@ -336,4 +388,16 @@ ul.nav-list li a:hover{
     height: 100%;
   }
 
+}
+@media screen and (max-width: 520px) {
+  .title{
+    left: 23%;
+    right: 20%;
+  }
+  .title h3{
+    font-size: 30px;
+  }
+  .title p {
+    font-size: 20px;
+  }
 }

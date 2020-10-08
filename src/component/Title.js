@@ -6,7 +6,13 @@ export default function Title() {
             <section>
                 <div className="title-grid">
                     <div class="title-slider" >
-                        <img src="https://picsum.photos/501/502" />
+                        <img src="https://picsum.photos/943/630" />
+                        <div className="title">
+                            <h3>
+                                Lanaharvest<br />
+                                <p>บริษัทส่งออกผลไม้ไทย 100%</p>
+                            </h3>
+                        </div>
                     </div>
                     <div className="title-content">
                     <div className="pointer" >

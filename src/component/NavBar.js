@@ -19,8 +19,8 @@ function NavBar(){
     const closeMobileMenu = () =>setClick(false)
 
     return (
-        <nav className=
-        "nav-grid"
+        <nav className={click ? 'nav-grid nav-active' : 'nav-grid' }
+        // "nav-grid"
         // {flex ? 'nav-grid nav-flex' : 'nav-grid'}
         >
                 <div className="nav-logo"> 
