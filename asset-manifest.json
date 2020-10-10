@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lanahavest/static/css/main.f62ceddf.chunk.css",
+    "main.css": "/lanahavest/static/css/main.34ede871.chunk.css",
     "main.js": "/lanahavest/static/js/main.187d23ce.chunk.js",
     "main.js.map": "/lanahavest/static/js/main.187d23ce.chunk.js.map",
     "runtime-main.js": "/lanahavest/static/js/runtime-main.97549b0b.js",
@@ -8,9 +8,9 @@
     "static/js/2.3f300de7.chunk.js": "/lanahavest/static/js/2.3f300de7.chunk.js",
     "static/js/2.3f300de7.chunk.js.map": "/lanahavest/static/js/2.3f300de7.chunk.js.map",
     "index.html": "/lanahavest/index.html",
-    "precache-manifest.567b4a71bbff96588979e062953d36ec.js": "/lanahavest/precache-manifest.567b4a71bbff96588979e062953d36ec.js",
+    "precache-manifest.7905f5e215c914c28c0e3092f0fd9196.js": "/lanahavest/precache-manifest.7905f5e215c914c28c0e3092f0fd9196.js",
     "service-worker.js": "/lanahavest/service-worker.js",
-    "static/css/main.f62ceddf.chunk.css.map": "/lanahavest/static/css/main.f62ceddf.chunk.css.map",
+    "static/css/main.34ede871.chunk.css.map": "/lanahavest/static/css/main.34ede871.chunk.css.map",
     "static/js/2.3f300de7.chunk.js.LICENSE.txt": "/lanahavest/static/js/2.3f300de7.chunk.js.LICENSE.txt",
     "static/media/company.jpg": "/lanahavest/static/media/company.bb23c59d.jpg",
     "static/media/fruit.jpg": "/lanahavest/static/media/fruit.fb22d2c5.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.97549b0b.js",
     "static/js/2.3f300de7.chunk.js",
-    "static/css/main.f62ceddf.chunk.css",
+    "static/css/main.34ede871.chunk.css",
     "static/js/main.187d23ce.chunk.js"
   ]
 }
