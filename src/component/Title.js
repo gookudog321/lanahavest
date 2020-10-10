@@ -19,7 +19,7 @@ export default function Title() {
                         </div>
                     </div>
                     <div className="title-content">
-                    <div className="pointer" >
+                    <div className="pointer w3-hover-opacity"  >
                         <Link  to="/company">
                             <img  src={Img04} />
                             <h3 className="title-text">Company </h3>
@@ -27,21 +27,21 @@ export default function Title() {
                         </Link>
                     </div>
 
-                    <div  className="pointer">
+                    <div  className="pointer w3-hover-opacity">
                         <Link  to="/business">
                             <img src={Img03} className="title-hover" />
-                            <h3 className="title-text">Business</h3>
+                            <h3 className="title-text ">Business</h3>
                         </Link>
                     </div>
 
-                    <div className="pointer">
+                    <div className="pointer w3-hover-opacity">
                         <Link  to="/product">
                             <img src={Img02}  className="title-hover" />
                             <h3 className="title-text">Product</h3>
                         </Link>
                     </div>
 
-                    <div className="pointer">
+                    <div className="pointer w3-hover-opacity">
                         <Link  to="/fruit">
                             <img src={Img05} className="title-hover" />
                             <h3 className="title-text">FRUIT SENSE</h3>

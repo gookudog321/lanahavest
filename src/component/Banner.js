@@ -8,7 +8,7 @@ export default function Banner({title,navigation}) {
     return (
         <>
         <div className="banner">
-            <img src="https://source.unsplash.com/random" alt={title} />
+            <img className="w3-grayscale-min" src="https://source.unsplash.com/random" alt={title} />
             <h3 className="banner-title">{title}</h3>
         </div>
         <div className="banner-navigation">
