@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lanahavest/static/css/main.470498aa.chunk.css",
-    "main.js": "/lanahavest/static/js/main.23d9b7ee.chunk.js",
-    "main.js.map": "/lanahavest/static/js/main.23d9b7ee.chunk.js.map",
+    "main.css": "/lanahavest/static/css/main.f62ceddf.chunk.css",
+    "main.js": "/lanahavest/static/js/main.187d23ce.chunk.js",
+    "main.js.map": "/lanahavest/static/js/main.187d23ce.chunk.js.map",
     "runtime-main.js": "/lanahavest/static/js/runtime-main.97549b0b.js",
     "runtime-main.js.map": "/lanahavest/static/js/runtime-main.97549b0b.js.map",
     "static/js/2.3f300de7.chunk.js": "/lanahavest/static/js/2.3f300de7.chunk.js",
     "static/js/2.3f300de7.chunk.js.map": "/lanahavest/static/js/2.3f300de7.chunk.js.map",
     "index.html": "/lanahavest/index.html",
-    "precache-manifest.f1f1dc635f39fcb192c4cd061426893a.js": "/lanahavest/precache-manifest.f1f1dc635f39fcb192c4cd061426893a.js",
+    "precache-manifest.567b4a71bbff96588979e062953d36ec.js": "/lanahavest/precache-manifest.567b4a71bbff96588979e062953d36ec.js",
     "service-worker.js": "/lanahavest/service-worker.js",
-    "static/css/main.470498aa.chunk.css.map": "/lanahavest/static/css/main.470498aa.chunk.css.map",
+    "static/css/main.f62ceddf.chunk.css.map": "/lanahavest/static/css/main.f62ceddf.chunk.css.map",
     "static/js/2.3f300de7.chunk.js.LICENSE.txt": "/lanahavest/static/js/2.3f300de7.chunk.js.LICENSE.txt",
     "static/media/company.jpg": "/lanahavest/static/media/company.bb23c59d.jpg",
     "static/media/fruit.jpg": "/lanahavest/static/media/fruit.fb22d2c5.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.97549b0b.js",
     "static/js/2.3f300de7.chunk.js",
-    "static/css/main.470498aa.chunk.css",
-    "static/js/main.23d9b7ee.chunk.js"
+    "static/css/main.f62ceddf.chunk.css",
+    "static/js/main.187d23ce.chunk.js"
   ]
 }
