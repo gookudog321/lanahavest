@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom'
 import Slider from "react-slick";
 export default class portfolio extends Component {
     render() {
+      var settings = {
+        dots: true,
+        autoplay: true,
+        arrows: false
+      }
         var settings = {
             dots: true,
             infinite: false,
@@ -47,9 +52,7 @@ export default class portfolio extends Component {
             "https://picsum.photos/207/193"
         ];
         const lists = ImgBrand.map((image)=>
-            <div>
                 <h3><Link to="/"><img class="portfolio-img" src={image} /></Link></h3>
-            </div>
         )
         return (
             <section className='portfolio '>

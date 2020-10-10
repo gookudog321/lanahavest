@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box !important;
   font-family: 'Sarabun', sans-serif;
+  overflow-inline: hidden;
+
 }
 h3{
   font-weight: bolder;
@@ -266,6 +268,7 @@ font-size: 30px;
 }
 .product-grid img{
   cursor: zoom-in;
+  width: 100%;
 }
 .product-grid p{
   margin: 20% 5%;
@@ -337,6 +340,13 @@ font-size: 30px;
 
 /* Medail */
 @media screen and (max-width: 960px) {
+  .slick-next{
+    right: 0 !important;
+  }
+  .slick-next, .slick-prev{
+    opacity: 0 !important;
+    left: 0;
+  }
   .nav-active{
     background: #242222 !important;
     left: 0 !important;
@@ -409,6 +419,9 @@ font-size: 30px;
   }
   .title p {
     font-size: 20px;
+  }
+  .product-grid p{
+    margin: 10% 5%;
   }
 
  
