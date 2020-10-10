@@ -129,9 +129,11 @@ ul.nav-list li a:hover{
 
 .title-text{
   position: absolute;
-  bottom:1rem;
-  right:1rem; 
+  top:1rem;
+  left:1rem; 
   text-align: center; 
+  color: #ffffff;
+  font-size: 30px;
 }
 .title-text-back{
   background-color: aqua;
@@ -450,5 +452,14 @@ font-size: 30px;
   }
   .title p {
     font-size: 20px;
+  }
+  .content-grid{
+    grid-template-columns: 1fr;
+  }
+  .content-grid div{
+    padding: 0 1rem;
+  }
+  .product h3{
+    margin: 0 20% 0 20%;
   }
 }

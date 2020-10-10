@@ -19,6 +19,8 @@ function NavBar(){
     const closeMobileMenu = () =>setClick(false)
 
     return (
+        <>
+        {/* {click ? <div className="nav-infomation">facebook</div>: ''} */}
         <nav className={click ? 'nav-grid nav-active' : 'nav-grid' }
         // "nav-grid"
         // {flex ? 'nav-grid nav-flex' : 'nav-grid'}
@@ -40,6 +42,7 @@ function NavBar(){
                     <li><Link onClick={closeMobileMenu} to="/community">Community</Link></li>
                 </ul>
         </nav>
+        </>
         )
 }
 export default NavBar
