@@ -427,6 +427,10 @@ font-size: 30px;
   .product-grid p{
     margin: 10% 5%;
   }
+  .banner-title{
+    font-family: 'Sarabun', sans-serif;
+    text-transform: uppercase;
+  }
 
  
 }
@@ -503,5 +507,9 @@ font-size: 30px;
 @media screen and (max-width: 340px) {
   .banner-title{
     font-size: 35px;
+    left: 25%;
+    
+    
   }
+  
 }
