@@ -48,19 +48,19 @@ export default class portfolio extends Component {
         ];
         const lists = ImgBrand.map((image)=>
             <div>
-                <h3><Link to="/"><img src={image} /></Link></h3>
+                <h3><Link to="/"><img class="portfolio-img" src={image} /></Link></h3>
             </div>
         )
         return (
-            <section className='portfolio container'>
+            <section className='portfolio '>
                <div className="container">
                <h3>BRAND PORTFOLIO</h3>
                 <p className="porfolio-p" />
-                    <div>
+
                     <Slider {...settings}>
                         {lists}
                     </Slider>
-                    </div>
+
                </div>
             </section>
         )

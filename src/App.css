@@ -1,8 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box !important;
+  font-family: 'Sarabun', sans-serif;
+  
 }
+h3{
+  font-weight: bolder;
+}
+
 :root {
   --mainTransition: all 0.3s linear;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -126,6 +131,13 @@ ul.nav-list li a:hover{
   right:1rem; 
   text-align: center; 
 }
+.title-text-back{
+  background-color: aqua;
+  opacity: 0;
+}
+.title-text-back:hover{
+  opacity: 1;
+}
 .title{
   position: absolute;
   top: 50%;
@@ -217,7 +229,7 @@ font-size: 30px;
   width: 20%;
 }
 .content{
-  padding: 13rem  0;
+  padding: 10rem  0;
   text-align: center;
   background-color: #ffffff;
 }
@@ -232,8 +244,11 @@ font-size: 30px;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
 }
+.content-grid div:nth-child(2){
+  padding-right: 1rem;
+}
 .product{
-  padding: 13rem  0;
+  padding: 10rem  0;
   text-align: center;
   background-color: #00275a;
 }
@@ -274,6 +289,10 @@ font-size: 30px;
   background-color: #242222;
   color: #ffffff;
 }
+.product-grid{
+  object-fit: cover;
+  width: 99%;
+}
 .portfolio{
   padding: 10rem  0;
   text-align: center;
@@ -286,6 +305,11 @@ font-size: 30px;
 .porfolio-p{
   border-bottom: 0.3rem solid #00275a;
   margin: 0  32% 4rem 32%;
+}
+.portfolio-img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 .footer{
   border-top:0.1rem solid #00275a ;
@@ -374,6 +398,18 @@ font-size: 30px;
   .title p {
     font-size: 20px;
   }
+  .product-grid{
+    grid-template-columns: 1fr;
+  }
+   .product-grid div:nth-child(1){
+    grid-row-start:    1;
+    grid-row-end:      2;
+  }
+  .product-grid div:nth-child(4){
+    grid-row-start:    3;
+    grid-row-end:      4;
+  }
+ 
 }
 @media screen and (max-width: 840px) {
   .title-grid{

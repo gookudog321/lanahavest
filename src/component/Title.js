@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Img01 from '../img/images/fruit002.jpg'
 
 export default function Title() {
     return (
             <section>
                 <div className="title-grid">
                     <div class="title-slider" >
-                        <img src="https://picsum.photos/943/630" />
+                        <img src={Img01} />
                         <div className="title">
                             <h3>
                                 Lanaharvest<br />
@@ -18,7 +19,8 @@ export default function Title() {
                     <div className="pointer" >
                         <Link  to="/company">
                             <img  src="https://picsum.photos/501/500" />
-                            <h3 className="title-text">Company</h3>
+                            <h3 className="title-text">Company </h3>
+                            
                         </Link>
                     </div>
 
