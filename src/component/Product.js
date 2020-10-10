@@ -10,7 +10,7 @@ export default class Product extends Component {
                 <div className="product-grid container">
                         {/* image */}
                         <div>
-                            <img className="product-grid" src="https://picsum.photos/500/500" />
+                            <img  src="https://picsum.photos/500/500" />
                         </div>
                     {/* Text */}
                         <div>
@@ -22,11 +22,11 @@ export default class Product extends Component {
                         </div>
                     {/* Image */}
                         <div>
-                            <img className="product-grid" src="https://picsum.photos/500/500" />
+                            <img  src="https://picsum.photos/500/500" />
                         </div>
                     {/* image */}
                         <div>
-                            <img className="product-grid" src="https://picsum.photos/500/500" />
+                            <img  src="https://picsum.photos/500/500" />
                         </div>
                     {/* Text */}
                         <div>

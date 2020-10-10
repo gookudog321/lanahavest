@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box !important;
   font-family: 'Sarabun', sans-serif;
-  
 }
 h3{
   font-weight: bolder;
@@ -399,7 +399,7 @@ font-size: 30px;
     font-size: 20px;
   }
   .product-grid{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
    .product-grid div:nth-child(1){
     grid-row-start:    1;
