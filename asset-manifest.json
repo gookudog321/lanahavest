@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/lanahavest/static/css/main.c05a607f.chunk.css",
-    "main.js": "/lanahavest/static/js/main.71a3bf55.chunk.js",
-    "main.js.map": "/lanahavest/static/js/main.71a3bf55.chunk.js.map",
+    "main.css": "/lanahavest/static/css/main.470498aa.chunk.css",
+    "main.js": "/lanahavest/static/js/main.23d9b7ee.chunk.js",
+    "main.js.map": "/lanahavest/static/js/main.23d9b7ee.chunk.js.map",
     "runtime-main.js": "/lanahavest/static/js/runtime-main.97549b0b.js",
     "runtime-main.js.map": "/lanahavest/static/js/runtime-main.97549b0b.js.map",
-    "static/js/2.b5cc8250.chunk.js": "/lanahavest/static/js/2.b5cc8250.chunk.js",
-    "static/js/2.b5cc8250.chunk.js.map": "/lanahavest/static/js/2.b5cc8250.chunk.js.map",
+    "static/js/2.3f300de7.chunk.js": "/lanahavest/static/js/2.3f300de7.chunk.js",
+    "static/js/2.3f300de7.chunk.js.map": "/lanahavest/static/js/2.3f300de7.chunk.js.map",
     "index.html": "/lanahavest/index.html",
-    "precache-manifest.b3d7ae2355c2abdddb69d48081d9a9f2.js": "/lanahavest/precache-manifest.b3d7ae2355c2abdddb69d48081d9a9f2.js",
+    "precache-manifest.f1f1dc635f39fcb192c4cd061426893a.js": "/lanahavest/precache-manifest.f1f1dc635f39fcb192c4cd061426893a.js",
     "service-worker.js": "/lanahavest/service-worker.js",
-    "static/css/main.c05a607f.chunk.css.map": "/lanahavest/static/css/main.c05a607f.chunk.css.map",
-    "static/js/2.b5cc8250.chunk.js.LICENSE.txt": "/lanahavest/static/js/2.b5cc8250.chunk.js.LICENSE.txt",
+    "static/css/main.470498aa.chunk.css.map": "/lanahavest/static/css/main.470498aa.chunk.css.map",
+    "static/js/2.3f300de7.chunk.js.LICENSE.txt": "/lanahavest/static/js/2.3f300de7.chunk.js.LICENSE.txt",
+    "static/media/company.jpg": "/lanahavest/static/media/company.bb23c59d.jpg",
+    "static/media/fruit.jpg": "/lanahavest/static/media/fruit.fb22d2c5.jpg",
     "static/media/fruit002.jpg": "/lanahavest/static/media/fruit002.fe9f922b.jpg",
+    "static/media/fruit004.jpg": "/lanahavest/static/media/fruit004.491bad38.jpg",
+    "static/media/fruit005.jpg": "/lanahavest/static/media/fruit005.2bebc8d8.jpg",
     "static/media/lannaharvest.png": "/lanahavest/static/media/lannaharvest.4dc9f612.png"
   },
   "entrypoints": [
     "static/js/runtime-main.97549b0b.js",
-    "static/js/2.b5cc8250.chunk.js",
-    "static/css/main.c05a607f.chunk.css",
-    "static/js/main.71a3bf55.chunk.js"
+    "static/js/2.3f300de7.chunk.js",
+    "static/css/main.470498aa.chunk.css",
+    "static/js/main.23d9b7ee.chunk.js"
   ]
 }
