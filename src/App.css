@@ -466,9 +466,7 @@ font-size: 30px;
   .title-content div img{
     height: 100%;
   }
-  .banner-title{
-    width: 100%;
-  }
+
 }
 @media screen and (max-width: 740px) {
   .banner-navigation ul{
