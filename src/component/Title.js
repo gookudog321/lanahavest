@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import vedio from '../vedio/Lanna Harvest.mp4'
 import Img01 from '../img/images/fruit002.jpg'
-import Img02 from '../img/images/fruit004.jpg'
+import Img02 from '../img/images/lannahavest_mango02.jpg'
 import Img03 from '../img/images/fruit005.jpg'
 import Img04 from '../img/images/company.jpg'
 import Img05 from '../img/images/fruit.jpg'
@@ -10,7 +11,9 @@ export default function Title() {
             <section>
                 <div className="title-grid">
                     <div class="title-slider" >
-                        <img src={Img01} />
+
+                        <video className="title-vedio"  src={vedio} autoPlay muted  />
+                        {/* <img src={Img01} /> */}
                         <div className="title">
                             <h3>
                                 Lanaharvest<br />

@@ -123,8 +123,14 @@ ul.nav-list li a:hover{
   height: 630px;
   object-fit: cover;
 }
+.title-vedio{
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
 .title-slider{
   position: relative;
+  height: 100%;
 }
 
 .title-text{
@@ -144,7 +150,7 @@ ul.nav-list li a:hover{
 }
 .title{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 22%;
   text-align: center;
 }
@@ -224,10 +230,9 @@ font-size: 30px;
   top: 40%;
   right: 50%;
   left: 43%;
-  text-transform: capitalize;
   font-weight: bold;
-  font-family: fantasy;
   color: #f7f7f7;
+  text-transform: uppercase;
   font-size: 50px;
   width: 100%;
 }
@@ -328,7 +333,7 @@ font-size: 30px;
 }
 .footer-logo{
   width: 100px;
-  margin-top: 0.8rem;
+  margin-top: 2.8rem;
 }
 .footer-list ul li{
   list-style: none;
@@ -337,7 +342,18 @@ font-size: 30px;
   color: #f7f7f7;
   margin-left: 3rem;
   margin-top: 0.5rem;
+  font-size: 15px;
 }
+.social {
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px;
+  list-style: none;
+}
+.social li {
+  margin: 37px 46px 1px 30px;
+}
+
 
 /* Medail */
 @media screen and (max-width: 960px) {
@@ -459,7 +475,14 @@ font-size: 30px;
   }
   .banner-title{
     left: 40%;
-
+  }
+  .social{
+    display: unset;
+    margin: 1rem 2rem;
+    font-size: 34px !important;
+  }
+  .social li {
+    margin: 0px 44px 0px 0px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -503,13 +526,21 @@ font-size: 30px;
   .banner-title{
     font-size: 40px;
   }
+  .footer-grid{
+    display: unset;
+    text-align: center;
+  }
+  .social{
+    display: flex !important;
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 340px) {
   .banner-title{
     font-size: 35px;
-    left: 25%;
-    
-    
+    left: 20%;
+   
   }
+
   
 }
