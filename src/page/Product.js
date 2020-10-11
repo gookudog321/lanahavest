@@ -11,7 +11,7 @@ export default class Product extends Component {
             </div>
         <div className="banner-navigation">
             <ul>
-                      <li className="link-active"><Link to='/product'>trading</Link></li>
+                      <li className="link-active"><Link to='/product'>Product</Link></li>
             </ul>
         </div>
                 <section className="section container">

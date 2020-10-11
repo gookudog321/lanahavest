@@ -16,7 +16,7 @@ export default function Title() {
                         {/* <img src={Img01} /> */}
                         <div className="title">
                             <h3>
-                                Lanaharvest<br />
+                                Lanna Harvest<br />
                                 <p>บริษัทส่งออกผลไม้ไทย 100%</p>
                             </h3>
                         </div>
