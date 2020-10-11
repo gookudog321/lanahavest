@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b904add35037aa96e09b8a88d4fc2696",
+    "revision": "0a4066adcd50f45776519ede47a63547",
     "url": "/lanahavest/index.html"
   },
   {
-    "revision": "de52fbf8393582317925",
-    "url": "/lanahavest/static/css/main.f4a783b4.chunk.css"
+    "revision": "c842f76d5817f0ece9e8",
+    "url": "/lanahavest/static/css/main.aa37f372.chunk.css"
   },
   {
     "revision": "45a019224f2cf2e95059",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lanahavest/static/js/2.9f6a9b82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de52fbf8393582317925",
+    "revision": "c842f76d5817f0ece9e8",
     "url": "/lanahavest/static/js/main.22287389.chunk.js"
   },
   {
