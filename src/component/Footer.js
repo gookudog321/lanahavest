@@ -24,9 +24,9 @@ export default class Footer extends Component {
                         </ul>
                     </div>
                     <ul className="social">
-                        <li><a href="" ><FontAwesomeIcon icon={faLine} /> </a></li>
-                        <li><a href="" ><FontAwesomeIcon icon={faFacebook} /></a></li>
-                        <li><a href="" ><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <li><a href="#" target="_blank"><FontAwesomeIcon icon={faLine} /> </a></li>
+                        <li><a href="https://www.facebook.com/LannaHarvest" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        <li><a href="https://www.instagram.com/lannaharvest/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
                     </ul>
                 </div>
             </footer>

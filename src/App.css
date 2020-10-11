@@ -9,7 +9,13 @@
 h3{
   font-weight: bolder;
 }
-
+.link-active{
+  background-color: #ffffff;
+  transition: all .05s linear;
+  border-top-left-radius: 50px 20px;
+  border-top-right-radius: 50px 20px;
+  color: #00275a !important;
+}
 :root {
   --mainTransition: all 0.3s linear;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -36,9 +42,7 @@ h3{
 .pointer{
   cursor: pointer;
 }
-a{
-  color: #c7c5c5;
-}
+
 a:hover{
   text-decoration: none;
 }
@@ -133,6 +137,7 @@ ul.nav-list li a:hover{
   height: 100%;
 }
 
+
 .title-text{
   position: absolute;
   top:1rem;
@@ -194,9 +199,9 @@ font-size: 30px;
 }
 .banner-navigation ul{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 0 15%;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   list-style: none;
   font-weight: bold;
@@ -206,7 +211,7 @@ font-size: 30px;
 }
 .banner-navigation ul li{
   padding: 0 1rem;
-  width: 100%;
+  width: 25%;
   height: 100%;
   font-weight: 900;
   text-align: center;
@@ -538,7 +543,7 @@ font-size: 30px;
 @media screen and (max-width: 340px) {
   .banner-title{
     font-size: 35px;
-    left: 20%;
+    left: 16%;
    
   }
 

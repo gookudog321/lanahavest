@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-import {Link} from'react-router-dom'
-export default class Fruit extends Component {
+import {Link} from 'react-router-dom'
+export default class season extends Component {
     render() {
-        const navigation=[
-            "fruit Nutrition Table",
-            "season of Imported fruits"
-        ]
         return (
             <>
                 <div className="banner">
@@ -14,12 +10,12 @@ export default class Fruit extends Component {
                 </div>
               <div className="banner-navigation">
                   <ul>
-                      <li className='link-active'><Link to='/fruit'>fruit Nutrition Table</Link></li>
-                      <li><Link to='/fruit/season'>season of Imported fruits</Link></li>
+                      <li ><Link to='/fruit'>fruit Nutrition Table</Link></li>
+                      <li className='link-active'><Link to='/fruit/season'>season of Imported fruits</Link></li>
                   </ul>
               </div>
                 <section className="section container">
-                ข้อมูล สินค้าที่ส่ง 
+                ข้อมูล สินค้าที่ส่ง  Season
                     <ul>
                         <li>fruit Nutrition Table</li>
                         <li>season of Imported fruits</li>

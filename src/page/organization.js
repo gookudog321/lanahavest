@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 
-export default class Buisness extends Component {
+export default class organization extends Component {
     render() {
-
         return (
             <>
                 <div className="banner">
                   <img className="w3-grayscale-min" src="https://source.unsplash.com/random" alt="Company" />
-                  <h3 className="banner-title">Buisness</h3>
-                </div>
+                  <h3 className="banner-title">Company</h3>
+              </div>
               <div className="banner-navigation">
                   <ul>
-                      <li className='link-active'><Link to='/buisness'>Trading</Link></li>
-                      <li><Link to='/buisness/commerce'>commerce</Link></li>
-                      <li><Link to='/buisness/distributionCenter'>distribution Center</Link></li>
-                      <li><Link to='/buisness/ecommerce'>E-Commerce</Link></li>
+                      <li><Link to='/company'>company Introduction</Link></li>
+                      <li><Link to='/company/history'>history</Link></li>
+                      <li className="link-active"><Link to='/company/organization'>organization</Link></li>
+                      <li><Link to='/company/location'>location</Link></li>
                   </ul>
               </div>
               <section className="section container">
@@ -31,4 +30,3 @@ export default class Buisness extends Component {
         )
     }
 }
-

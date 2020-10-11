@@ -1,17 +1,23 @@
 import React, { Component } from 'react'
-import Banner from '../component/Banner'
+import {Link} from 'react-router-dom'
 export default class Product extends Component {
     render() {
-        const navigation=[
-            "trading"
-        ]
+
         return (
             <>
-                <Banner  title="product" navigation={navigation}/>  
+            <div className="banner">
+                <img className="w3-grayscale-min" src="https://source.unsplash.com/random" alt="Company" />
+                <h3 className="banner-title">Product</h3>
+            </div>
+        <div className="banner-navigation">
+            <ul>
+                      <li className="link-active"><Link to='/product'>trading</Link></li>
+            </ul>
+        </div>
                 <section className="section container">
                 ข้อมูล สินค้า 
                     <ul>
-                        <li>trading</li>
+                        <li className="link-active">trading</li>
                     </ul>
                 </section>
             </>
